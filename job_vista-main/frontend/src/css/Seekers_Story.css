@@ -1,0 +1,45 @@
+.seeker-story{
+    width: 25%;
+    height: 30%;
+    border-radius: 0px;
+    box-shadow: 2px 3px 10px gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 1rem 1rem;
+    transition: 1s ease-in;
+}
+.seeker-story:hover{
+    scale: 1.1;
+    box-shadow: 2px 3px 5px gray;
+    color:#ffffff;;
+}
+.seeker-story img{
+    height: 40%;
+    width: 70%;
+    align-self: center;
+    border-radius: 15px;
+    margin-top:1rem ;
+}
+.para{
+    width: 100%;
+    overflow: hidden;
+    text-align: justify;
+}
+.para p{
+    font-size: 1rem;
+    text-wrap: wrap; 
+    padding: 0.4rem;
+}
+@media only screen and (max-width: 600px){
+    .seeker-story{
+        width: 60%;
+        height: 40%;
+        margin-bottom:1rem ;
+    }
+    .seeker-story img{
+      height: 12rem; 
+      margin-top: 1rem;
+    
+    }
+}

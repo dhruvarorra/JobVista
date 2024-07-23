@@ -1,0 +1,48 @@
+.main{
+    height:90vh;
+    background-repeat: no-repeat;   
+    background-size:contain;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    height:90%;
+    width: 40%;
+    padding: 1rem;
+    margin-left: 30%;
+    justify-content:space-evenly;
+    border-radius: 20px;
+    align-items: center;
+    box-shadow: 20px 30px 50px gray;
+}
+.form div{
+    display: flex;
+    flex-direction: row;
+    height:12%;
+    width: 90%;
+    border-radius: 20px;
+    }
+    input::placeholder{
+        color: white;
+    }
+        .form input{
+        background-color: #9A639F;
+        width: 100%;
+        font-size: 1.2rem;
+        border-radius: 20px;
+        outline: none;
+        border: none;
+        padding:1rem;
+        color: white;
+    }
+    .btn-register{
+        background-color: #9A639F;
+        color: white;
+        border: none;
+        border-radius: 20px;
+        font-size: 1.2rem;
+        padding: 0.5rem 1.5rem;
+        margin-top: 1.5rem;
+        cursor: pointer;
+        outline: none;
+    }
